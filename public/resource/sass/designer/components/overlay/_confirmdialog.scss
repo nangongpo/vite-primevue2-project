@@ -1,0 +1,8 @@
+.p-dialog.p-confirm-dialog {
+  .p-confirm-dialog-icon {
+    font-size: $primeIconFontSize * 2;
+  }
+  .p-confirm-dialog-message {
+		margin-left: $inlineSpacing * 2;
+  }
+}

@@ -1,0 +1,833 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"code": "f230fh0g3",
+			"name": "竹手表",
+			"description": "产品描述",
+			"image": "bamboo-watch.jpg",
+			"price": 65,
+			"category": "穿戴配饰",
+			"quantity": 24,
+			"inventoryStatus": "有现货",
+            "rating": 5,
+            "orders": [
+                {
+                    "id": "1000-0",
+                    "productCode": "f230fh0g3",
+                    "date": "2020-09-13",
+                    "amount": 65,
+                    "quantity": 1,
+                    "customer": "David James",
+                    "status": "PENDING"
+                },
+                {
+                    "id": "1001-1",
+                    "productCode": "f230fh0g3",
+                    "date": "2020-05-14",
+                    "amount": 130,
+                    "quantity": 2,
+                    "customer": "Leon Rodrigues",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1002-2",
+                    "productCode": "f230fh0g3",
+                    "date": "2019-01-04",
+                    "amount": 65,
+                    "quantity": 1,
+                    "customer": "Juan Alejandro",
+                    "status": "RETURNED"
+                },
+                {
+                    "id": "1003-3",
+                    "productCode": "f230fh0g3",
+                    "date": "2020-09-13",
+                    "amount": 195,
+                    "quantity": 3,
+                    "customer": "Claire Morrow",
+                    "status": "CANCELLED"
+                }
+            ]
+		},
+		{
+			"id": "1001",
+			"code": "nvklal433",
+			"name": "黑色手表",
+			"description": "产品描述",
+			"image": "black-watch.jpg",
+			"price": 72,
+			"category": "穿戴配饰",
+			"quantity": 61,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1001-0",
+                    "productCode": "nvklal433",
+                    "date": "2020-05-14",
+                    "amount": 72,
+                    "quantity": 1,
+                    "customer": "Maisha Jefferson",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1001-1",
+                    "productCode": "nvklal433",
+                    "date": "2020-02-28",
+                    "amount": 144,
+                    "quantity": 2,
+                    "customer": "Octavia Murillo",
+                    "status": "PENDING"
+                }
+            ]
+		},
+		{
+			"id": "1002",
+			"code": "zz21cz3c1",
+			"name": "蓝带",
+			"description": "产品描述",
+			"image": "blue-band.jpg",
+			"price": 79,
+			"category": "穿戴配饰",
+			"quantity": 2,
+			"inventoryStatus": "缺货",
+            "rating": 3,
+            "orders": [
+                {
+                    "id": "1002-0",
+                    "productCode": "zz21cz3c1",
+                    "date": "2020-07-05",
+                    "amount": 79,
+                    "quantity": 1,
+                    "customer": "Stacey Leja",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1002-1",
+                    "productCode": "zz21cz3c1",
+                    "date": "2020-02-06",
+                    "amount": 79,
+                    "quantity": 1,
+                    "customer": "Ashley Wickens",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1003",
+			"code": "244wgerg2",
+			"name": "蓝色T恤",
+			"description": "产品描述",
+			"image": "blue-t-shirt.jpg",
+			"price": 29,
+			"category": "服装",
+			"quantity": 25,
+			"inventoryStatus": "有现货",
+            "rating": 5,
+            "orders": []
+		},
+		{
+			"id": "1004",
+			"code": "h456wer53",
+			"name": "手镯",
+			"description": "产品描述",
+			"image": "bracelet.jpg",
+			"price": 15,
+			"category": "穿戴配饰",
+			"quantity": 73,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1004-0",
+                    "productCode": "h456wer53",
+                    "date": "2020-09-05",
+                    "amount": 60,
+                    "quantity": 4,
+                    "customer": "Mayumi Misaki",
+                    "status": "PENDING"
+                },
+                {
+                    "id": "1004-5",
+                    "productCode": "h456wer53",
+                    "date": "2019-04-16",
+                    "amount": 2,
+                    "quantity": 30,
+                    "customer": "Francesco Salvatore",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1005",
+			"code": "av2231fwg",
+			"name": "棕色钱包",
+			"description": "产品描述",
+			"image": "brown-purse.jpg",
+			"price": 120,
+			"category": "穿戴配饰",
+			"quantity": 0,
+			"inventoryStatus": "缺货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1005-0",
+                    "productCode": "av2231fwg",
+                    "date": "2020-01-25",
+                    "amount": 120,
+                    "quantity": 1,
+                    "customer": "Isabel Sinclair",
+                    "status": "RETURNED"
+                },
+                {
+                    "id": "1005-1",
+                    "productCode": "av2231fwg",
+                    "date": "2019-03-12",
+                    "amount": 240,
+                    "quantity": 2,
+                    "customer": "Lionel Clifford",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1005-2",
+                    "productCode": "av2231fwg",
+                    "date": "2019-05-05",
+                    "amount": 120,
+                    "quantity": 1,
+                    "customer": "Cody Chavez",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1006",
+			"code": "bib36pfvm",
+			"name": "脉轮收敛",
+			"description": "产品描述",
+			"image": "chakra-bracelet.jpg",
+			"price": 32,
+			"category": "穿戴配饰",
+			"quantity": 5,
+			"inventoryStatus": "缺货",
+            "rating": 3,
+            "orders": [
+                {
+                    "id": "1006-0",
+                    "productCode": "bib36pfvm",
+                    "date": "2020-02-24",
+                    "amount": 32,
+                    "quantity": 1,
+                    "customer": "Arvin Darci",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1006-1",
+                    "productCode": "bib36pfvm",
+                    "date": "2020-01-14",
+                    "amount": 64,
+                    "quantity": 2,
+                    "customer": "Izzy Jones",
+                    "status": "PENDING"
+                }
+            ]
+		},
+		{
+			"id": "1007",
+			"code": "mbvjkgip5",
+			"name": "银河手环",
+			"description": "产品描述",
+			"image": "galaxy-earrings.jpg",
+			"price": 34,
+			"category": "穿戴配饰",
+			"quantity": 23,
+			"inventoryStatus": "有现货",
+            "rating": 5,
+            "orders": [
+                {
+                    "id": "1007-0",
+                    "productCode": "mbvjkgip5",
+                    "date": "2020-06-19",
+                    "amount": 34,
+                    "quantity": 1,
+                    "customer": "Jennifer Smith",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1008",
+			"code": "vbb124btr",
+			"name": "游戏控制器",
+			"description": "产品描述",
+			"image": "game-controller.jpg",
+			"price": 99,
+			"category": "电子产品",
+			"quantity": 2,
+			"inventoryStatus": "缺货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1008-0",
+                    "productCode": "vbb124btr",
+                    "date": "2020-01-05",
+                    "amount": 99,
+                    "quantity": 1,
+                    "customer": "Jeanfrancois David",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1008-1",
+                    "productCode": "vbb124btr",
+                    "date": "2020-01-19",
+                    "amount": 198,
+                    "quantity": 2,
+                    "customer": "Ivar Greenwood",
+                    "status": "RETURNED"
+                }
+            ]
+		},
+		{
+			"id": "1009",
+			"code": "cm230f032",
+			"name": "游戏套装",
+			"description": "产品描述",
+			"image": "gaming-set.jpg",
+			"price": 299,
+			"category": "电子产品",
+			"quantity": 63,
+			"inventoryStatus": "有现货",
+            "rating": 3,
+            "orders": [
+                {
+                    "id": "1009-0",
+                    "productCode": "cm230f032",
+                    "date": "2020-06-24",
+                    "amount": 299,
+                    "quantity": 1,
+                    "customer": "Kadeem Mujtaba",
+                    "status": "PENDING"
+                },
+                {
+                    "id": "1009-1",
+                    "productCode": "cm230f032",
+                    "date": "2020-05-11",
+                    "amount": 299,
+                    "quantity": 1,
+                    "customer": "Ashley Wickens",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1009-2",
+                    "productCode": "cm230f032",
+                    "date": "2019-02-07",
+                    "amount": 299,
+                    "quantity": 1,
+                    "customer": "Julie Johnson",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1009-3",
+                    "productCode": "cm230f032",
+                    "date": "2020-04-26",
+                    "amount": 299,
+                    "quantity": 1,
+                    "customer": "Tony Costa",
+                    "status": "CANCELLED"
+                }
+            ]
+		},
+		{
+			"id": "1010",
+			"code": "plb34234v",
+			"name": "金质手机壳",
+			"description": "产品描述",
+			"image": "gold-phone-case.jpg",
+			"price": 24,
+			"category": "穿戴配饰",
+			"quantity": 0,
+			"inventoryStatus": "缺货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1010-0",
+                    "productCode": "plb34234v",
+                    "date": "2020-02-04",
+                    "amount": 24,
+                    "quantity": 1,
+                    "customer": "詹姆斯·巴特",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1010-1",
+                    "productCode": "plb34234v",
+                    "date": "2020-05-05",
+                    "amount": 48,
+                    "quantity": 2,
+                    "customer": "约瑟芬·达拉基",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1011",
+			"code": "4920nnc2d",
+			"name": "绿色耳塞",
+			"description": "产品描述",
+			"image": "green-earbuds.jpg",
+			"price": 89,
+			"category": "电子产品",
+			"quantity": 23,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1011-0",
+                    "productCode": "4920nnc2d",
+                    "date": "2020-06-01",
+                    "amount": 89,
+                    "quantity": 1,
+                    "customer": "詹姆斯",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1012",
+			"code": "250vm23cc",
+			"name": "绿色T恤",
+			"description": "产品描述",
+			"image": "green-t-shirt.jpg",
+			"price": 49,
+			"category": "服装",
+			"quantity": 74,
+			"inventoryStatus": "有现货",
+            "rating": 5,
+            "orders": [
+                {
+                    "id": "1012-0",
+                    "productCode": "250vm23cc",
+                    "date": "2020-02-05",
+                    "amount": 49,
+                    "quantity": 1,
+                    "customer": "布莱尔",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1012-1",
+                    "productCode": "250vm23cc",
+                    "date": "2020-02-15",
+                    "amount": 49,
+                    "quantity": 1,
+                    "customer": "托马斯",
+                    "status": "PENDING"
+                }
+            ]
+		},
+		{
+			"id": "1013",
+			"code": "fldsmn31b",
+			"name": "灰色T恤",
+			"description": "产品描述",
+			"image": "grey-t-shirt.jpg",
+			"price": 48,
+			"category": "服装",
+			"quantity": 0,
+			"inventoryStatus": "缺货",
+            "rating": 3,
+            "orders": [
+                {
+                    "id": "1013-0",
+                    "productCode": "fldsmn31b",
+                    "date": "2020-04-01",
+                    "amount": 48,
+                    "quantity": 1,
+                    "customer": "汉密尔顿",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1014",
+			"code": "waas1x2as",
+			"name": "耳机",
+			"description": "产品描述",
+			"image": "headphones.jpg",
+			"price": 175,
+			"category": "电子产品",
+			"quantity": 8,
+			"inventoryStatus": "缺货",
+            "rating": 5,
+            "orders": [
+                {
+                    "id": "1014-0",
+                    "productCode": "waas1x2as",
+                    "date": "2020-05-15",
+                    "amount": 175,
+                    "quantity": 1,
+                    "customer": "布莱尔",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1014-1",
+                    "productCode": "waas1x2as",
+                    "date": "2020-01-02",
+                    "amount": 175,
+                    "quantity": 1,
+                    "customer": "托马斯",
+                    "status": "CANCELLED"
+                }
+            ]
+		},
+		{
+			"id": "1015",
+			"code": "vb34btbg5",
+			"name": "浅绿色T恤",
+			"description": "产品描述",
+			"image": "light-green-t-shirt.jpg",
+			"price": 49,
+			"category": "服装",
+			"quantity": 34,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1015-0",
+                    "productCode": "vb34btbg5",
+                    "date": "2020-07-02",
+                    "amount": 98,
+                    "quantity": 2,
+                    "customer": "丹尼格林",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1016",
+			"code": "k8l6j58jl",
+			"name": "石灰带",
+			"description": "产品描述",
+			"image": "lime-band.jpg",
+			"price": 79,
+			"category": "穿戴配饰",
+			"quantity": 12,
+			"inventoryStatus": "有现货",
+            "rating": 3,
+            "orders": []
+		},
+		{
+			"id": "1017",
+			"code": "v435nn85n",
+			"name": "微型扬声器",
+			"description": "产品描述",
+			"image": "mini-speakers.jpg",
+			"price": 85,
+			"category": "服装",
+			"quantity": 42,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1017-0",
+                    "productCode": "v435nn85n",
+                    "date": "2020-07-12",
+                    "amount": 85,
+                    "quantity": 1,
+                    "customer": "安东尼",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1018",
+			"code": "09zx9c0zc",
+			"name": "彩绘手机壳",
+			"description": "产品描述",
+			"image": "painted-phone-case.jpg",
+			"price": 56,
+			"category": "穿戴配饰",
+			"quantity": 41,
+			"inventoryStatus": "有现货",
+            "rating": 5,
+            "orders": [
+                {
+                    "id": "1018-0",
+                    "productCode": "09zx9c0zc",
+                    "date": "2020-07-01",
+                    "amount": 56,
+                    "quantity": 1,
+                    "customer": "布克",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1018-1",
+                    "productCode": "09zx9c0zc",
+                    "date": "2020-05-02",
+                    "amount": 56,
+                    "quantity": 1,
+                    "customer": "安东尼",
+                    "status": "RETURNED"
+                }
+            ]
+		},
+		{
+			"id": "1019",
+			"code": "mnb5mb2m5",
+			"name": "粉带",
+			"description": "产品描述",
+			"image": "pink-band.jpg",
+			"price": 79,
+			"category": "穿戴配饰",
+			"quantity": 63,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": []
+		},
+		{
+			"id": "1020",
+			"code": "r23fwf2w3",
+			"name": "粉红色钱包",
+			"description": "产品描述",
+			"image": "pink-purse.jpg",
+			"price": 110,
+			"category": "穿戴配饰",
+			"quantity": 0,
+			"inventoryStatus": "缺货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1020-0",
+                    "productCode": "r23fwf2w3",
+                    "date": "2020-05-29",
+                    "amount": 110,
+                    "quantity": 1,
+                    "customer": "肯达尔",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1020-1",
+                    "productCode": "r23fwf2w3",
+                    "date": "2020-02-11",
+                    "amount": 220,
+                    "quantity": 2,
+                    "customer": "约翰斯密斯",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1021",
+			"code": "pxpzczo23",
+			"name": "紫带",
+			"description": "产品描述",
+			"image": "purple-band.jpg",
+			"price": 79,
+			"category": "穿戴配饰",
+			"quantity": 6,
+			"inventoryStatus": "缺货",
+            "rating": 3,
+            "orders": [
+                {
+                    "id": "1021-0",
+                    "productCode": "pxpzczo23",
+                    "date": "2020-02-02",
+                    "amount": 79,
+                    "quantity": 1,
+                    "customer": "邦齐维尔斯",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1022",
+			"code": "2c42cb5cb",
+			"name": "紫色宝石项链",
+			"description": "产品描述",
+			"image": "purple-gemstone-necklace.jpg",
+			"price": 45,
+			"category": "穿戴配饰",
+			"quantity": 62,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1022-0",
+                    "productCode": "2c42cb5cb",
+                    "date": "2020-06-29",
+                    "amount": 45,
+                    "quantity": 1,
+                    "customer": "布莱恩特",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1022-1",
+                    "productCode": "2c42cb5cb",
+                    "date": "2020-02-11",
+                    "amount": 135,
+                    "quantity": 3,
+                    "customer": "卢瑟福",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1023",
+			"code": "5k43kkk23",
+			"name": "紫色T恤",
+			"description": "产品描述",
+			"image": "purple-t-shirt.jpg",
+			"price": 49,
+			"category": "服装",
+			"quantity": 2,
+			"inventoryStatus": "缺货",
+            "rating": 5,
+            "orders": [
+                {
+                    "id": "1023-0",
+                    "productCode": "5k43kkk23",
+                    "date": "2020-04-15",
+                    "amount": 49,
+                    "quantity": 1,
+                    "customer": "娜其尔",
+                    "status": "RETURNED"
+                }
+            ]
+		},
+		{
+			"id": "1024",
+			"code": "lm2tny2k4",
+			"name": "鞋子",
+			"description": "产品描述",
+			"image": "shoes.jpg",
+			"price": 64,
+			"category": "服装",
+			"quantity": 0,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": []
+		},
+		{
+			"id": "1025",
+			"code": "nbm5mv45n",
+			"name": "运动鞋",
+			"description": "产品描述",
+			"image": "sneakers.jpg",
+			"price": 78,
+			"category": "服装",
+			"quantity": 52,
+			"inventoryStatus": "有现货",
+            "rating": 4,
+            "orders": [
+                {
+                    "id": "1025-0",
+                    "productCode": "nbm5mv45n",
+                    "date": "2020-02-19",
+                    "amount": 78,
+                    "quantity": 1,
+                    "customer": "托蒂",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1025-1",
+                    "productCode": "nbm5mv45n",
+                    "date": "2020-05-21",
+                    "amount": 78,
+                    "quantity": 1,
+                    "customer": "菲哥",
+                    "status": "PENDING"
+                }
+            ]
+		},
+		{
+			"id": "1026",
+			"code": "zx23zc42c",
+			"name": "青绿色T恤",
+			"description": "产品描述",
+			"image": "teal-t-shirt.jpg",
+			"price": 49,
+			"category": "服装",
+			"quantity": 3,
+			"inventoryStatus": "缺货",
+            "rating": 3,
+            "orders": [
+                {
+                    "id": "1026-0",
+                    "productCode": "zx23zc42c",
+                    "date": "2020-04-24",
+                    "amount": 98,
+                    "quantity": 2,
+                    "customer": "贝壳尼克",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1027",
+			"code": "acvx872gc",
+			"name": "黄色耳塞",
+			"description": "产品描述",
+			"image": "yellow-earbuds.jpg",
+			"price": 89,
+			"category": "电子产品",
+			"quantity": 35,
+			"inventoryStatus": "有现货",
+            "rating": 3,
+            "orders": [
+                {
+                    "id": "1027-0",
+                    "productCode": "acvx872gc",
+                    "date": "2020-01-29",
+                    "amount": 89,
+                    "quantity": 1,
+                    "customer": "维罗妮卡·伊努耶",
+                    "status": "DELIVERED"
+                },
+                {
+                    "id": "1027-1",
+                    "productCode": "acvx872gc",
+                    "date": "2020-06-11",
+                    "amount": 89,
+                    "quantity": 1,
+                    "customer": "威拉德·科尔梅茨",
+                    "status": "DELIVERED"
+                }
+            ]
+		},
+		{
+			"id": "1028",
+			"code": "tx125ck42",
+			"name": "瑜伽垫",
+			"description": "产品描述",
+			"image": "yoga-mat.jpg",
+			"price": 20,
+			"category": "穿戴配饰",
+			"quantity": 15,
+			"inventoryStatus": "有现货",
+            "rating": 5,
+            "orders": []
+		},
+		{
+			"id": "1029",
+			"code": "gwuby345v",
+			"name": "瑜伽套装",
+			"description": "产品描述",
+			"image": "yoga-set.jpg",
+			"price": 20,
+			"category": "穿戴配饰",
+			"quantity": 25,
+			"inventoryStatus": "有现货",
+            "rating": 8,
+            "orders": [
+                {
+                    "id": "1026-0",
+                    "productCode": "gwuby345v",
+                    "date": "2020-02-14",
+                    "amount": 4,
+                    "quantity": 80,
+                    "customer": "玛丽安·罗伊斯特",
+                    "status": "DELIVERED"
+                }
+            ]
+		}
+	]
+}

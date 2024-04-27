@@ -1,0 +1,124 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"code": "f230fh0g3",
+			"name": "竹手表",
+			"description": "产品描述",
+			"image": "bamboo-watch.jpg",
+			"price": 65,
+			"category": "穿戴配饰",
+			"quantity": 24,
+			"inventoryStatus": "有现货",
+			"rating": 5
+		},
+		{
+			"id": "1001",
+			"code": "nvklal433",
+			"name": "黑色手表",
+			"description": "产品描述",
+			"image": "black-watch.jpg",
+			"price": 72,
+			"category": "穿戴配饰",
+			"quantity": 61,
+			"inventoryStatus": "有现货",
+			"rating": 4
+		},
+		{
+			"id": "1002",
+			"code": "zz21cz3c1",
+			"name": "蓝带",
+			"description": "产品描述",
+			"image": "blue-band.jpg",
+			"price": 79,
+			"category": "穿戴配饰",
+			"quantity": 2,
+			"inventoryStatus": "缺货",
+			"rating": 3
+		},
+		{
+			"id": "1003",
+			"code": "244wgerg2",
+			"name": "蓝色T恤",
+			"description": "产品描述",
+			"image": "blue-t-shirt.jpg",
+			"price": 29,
+			"category": "服装",
+			"quantity": 25,
+			"inventoryStatus": "有现货",
+			"rating": 5
+		},
+		{
+			"id": "1004",
+			"code": "h456wer53",
+			"name": "手镯",
+			"description": "产品描述",
+			"image": "bracelet.jpg",
+			"price": 15,
+			"category": "穿戴配饰",
+			"quantity": 73,
+			"inventoryStatus": "有现货",
+			"rating": 4
+		},
+		{
+			"id": "1005",
+			"code": "av2231fwg",
+			"name": "棕色钱包",
+			"description": "产品描述",
+			"image": "brown-purse.jpg",
+			"price": 120,
+			"category": "穿戴配饰",
+			"quantity": 0,
+			"inventoryStatus": "缺货",
+			"rating": 4
+		},
+		{
+			"id": "1006",
+			"code": "bib36pfvm",
+			"name": "脉轮收敛",
+			"description": "产品描述",
+			"image": "chakra-bracelet.jpg",
+			"price": 32,
+			"category": "穿戴配饰",
+			"quantity": 5,
+			"inventoryStatus": "缺货",
+			"rating": 3
+		},
+		{
+			"id": "1007",
+			"code": "mbvjkgip5",
+			"name": "银河手环",
+			"description": "产品描述",
+			"image": "galaxy-earrings.jpg",
+			"price": 34,
+			"category": "穿戴配饰",
+			"quantity": 23,
+			"inventoryStatus": "有现货",
+			"rating": 5
+		},
+		{
+			"id": "1008",
+			"code": "vbb124btr",
+			"name": "游戏控制器",
+			"description": "产品描述",
+			"image": "game-controller.jpg",
+			"price": 99,
+			"category": "电子产品",
+			"quantity": 2,
+			"inventoryStatus": "缺货",
+			"rating": 4
+		},
+		{
+			"id": "1009",
+			"code": "cm230f032",
+			"name": "游戏套装",
+			"description": "产品描述",
+			"image": "gaming-set.jpg",
+			"price": 299,
+			"category": "电子产品",
+			"quantity": 63,
+			"inventoryStatus": "有现货",
+			"rating": 3
+		}
+	]
+}

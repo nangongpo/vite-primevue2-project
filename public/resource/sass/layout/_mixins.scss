@@ -1,0 +1,19 @@
+@mixin background-gradient-top2bottom($start-color, $end-color) {
+	background-color: $start-color;
+	background-image:         linear-gradient(to bottom, $start-color, $end-color);
+	filter:            progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$start-color}', endColorStr='#{$end-color}');
+}
+
+@mixin background-gradient-left2right($start-color, $end-color) {
+	background-color: $start-color;
+	background-image:         linear-gradient(to right, $start-color, $end-color);
+	filter:            progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$start-color}', endColorStr='#{$end-color}', gradientType='1');
+}
+
+@mixin clearfix() {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
