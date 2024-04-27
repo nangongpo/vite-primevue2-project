@@ -1,0 +1,145 @@
+@media (min-width: 1025px){
+  .layout-wrapper.menu-layout-static .tags-view-container{
+      margin-left: $sidebarWidth;
+      margin-top:60px;
+      position: fixed;
+      z-index: 97;
+      width: calc(100% - $sidebarWidth) !important;
+      -webkit-transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+      transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+  }
+  .layout-wrapper.menu-layout-static.layout-menu-static-inactive .tags-view-container{
+     margin-left: 0px;
+     width: 100% !important;
+     -webkit-transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+      transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+     
+  }
+  .layout-wrapper.menu-layout-overlay .tags-view-container {
+        margin-top:60px;
+        position: fixed;
+        z-index: 97;
+        width:100% !important;
+        -webkit-transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+        transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+  }
+  .layout-wrapper.menu-layout-horizontal .tags-view-container{
+      margin-left: 0px;
+      margin-top: 99px;
+      position: fixed;
+      z-index: 97;
+      border-top: 1px solid #dee2e6;;
+      width: 100% !important;
+      -webkit-transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+      transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+  }
+  .layout-wrapper.menu-layout-slim .tags-view-container{
+     margin-left: 75px;
+      margin-top:60px;
+      position: fixed;
+      z-index: 97;
+      width: calc( 100% - 75px) !important;
+      -webkit-transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+      transition: inline-block .3s,left .3s,width .3s,margin-left .3s,font-size .3s;
+  }
+}
+@media (max-width: 1024px){
+  .tags-view-container{
+     display: none;
+  }
+
+}
+
+.tags-view-wrapper .tags-view-item .pi-times {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -2px;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}
+
+.tags-view-wrapper .tags-view-item .pi-times:before {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    display: inline-block;
+    vertical-align: -1px;
+}
+.tags-view-wrapper .tags-view-item .pi-times:hover {
+    background-color: #b4bccc;
+    color: #fff;
+}
+// .layout-wrapper .layout-main {
+//     padding: 80px 15px 15px 15px;
+//     transition: margin-left 0.3s;
+//     flex: 1 1 0;
+// }
+.tags-view-container {
+  height: 34px;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #d8dce5;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 3px 0 rgba(0, 0, 0, .04);
+  .tags-view-wrapper {
+    .tags-view-item {
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      height: 26px;
+      line-height: 26px;
+      border: 1px solid #d8dce5;
+      color: #495060;
+      background: #fff;
+      padding: 0 8px;
+      font-size: 12px;
+      margin-left: 5px;
+      margin-top: 4px;
+      &:first-of-type {
+        margin-left: 15px;
+      }
+      &:last-of-type {
+        margin-right: 15px;
+      }
+      &.active {
+        background-color: $topbarLeftGradientEndBgColor;
+        color: $highlightTextColor;
+        border-color: $topbarLeftGradientEndBgColor;
+        &::before {
+          content: '';
+          background: #fff;
+          display: inline-block;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          position: relative;
+          margin-right: 2px;
+        }
+      }
+    }
+  }
+  .contextmenu {
+    margin: 0;
+    background: #fff;
+    z-index: 3000;
+    position: absolute;
+    list-style-type: none;
+    padding: 5px 0;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, .3);
+    li {
+      margin: 0;
+      padding: 7px 16px;
+      cursor: pointer;
+      &:hover {
+        background: #eee;
+      }
+    }
+  }
+}
