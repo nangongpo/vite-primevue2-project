@@ -1,1 +1,0 @@
-{"version":3,"file":"SeatDemo-legacy-CJj84iKt.js","sources":["../../src/views/menu/SeatDemo.vue"],"sourcesContent":["<template>\n  <div class=\"stepsdemo-content\">\n    <i class=\"pi pi-fw pi-ticket\" />\n    <p>Seat Component Content via Child Route</p>\n  </div>\n</template>\n\n<script>\nexport default {\n\n}\n</script>\n"],"names":[],"mappings":"kZAQA,CAEA"}
